@@ -36,7 +36,7 @@ int main() {
     cout.tie(0);
 
     vector<int> contributions = {1, 2, 3, 4};
-    solve(contributions);
+    for(int x: solve(contributions)) {cout << x << ' ';}
 
 
     return 0;
